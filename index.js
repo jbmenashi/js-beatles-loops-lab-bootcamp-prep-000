@@ -21,7 +21,7 @@ function iLoveTheBeatles(n) {
   var newestArray = [];
   do {
     newestArray.push('I love the Beatles!');
-    n++
+    n++;
   } while (n < 15);
   return newestArray;
 }
