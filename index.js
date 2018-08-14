@@ -19,10 +19,9 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n) {
   var newestArray = [];
-  var i = n + 1;
   do {
     newestArray.push('I love the Beatles!');
-    i++
+    n++
   } while (n < 15);
   return newestArray;
 }
